@@ -1,55 +1,29 @@
 # Lab 1
 
-### Connect to prometheus with ssh
+## Connect to prometheus with ssh
 
-* [putty](https://www.ssh.com/ssh/putty/windows/)
+* putty
+    1. Connection type ssh
+    2. Translation UTF-8
+    3. Save changes
+    4. Saved Sessions prometheus
+    5. Hostname: prometheus.dmst.aueb.gr 
 
 * terminal: ssh username@prometheus.dmst.aueb.gr
+
+## Command line
+
+* Η γραμμή εντολών σας δίνει αριστερά κάποιες πληροφορίες (μεταξύ άλλων, το όνομα του χρήστη, το όνομα του μηχανήματος) και περιμένει από εσάς τις εντολές σας προς εκτέλεση.
+
+* Μετακίνηση δρομέα με τα βελάκια 
 
 ### Date
 
 * date
 
-* date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"
-
 ### Cal
 
 * cal
-
-* cal -y
-
-* cal 12 2017
-
-### Passwrd
-
-* passwrd
-
-### History
-
-* history
-
-* history 10
-
-* arrows up / down
-
-* history -c
-
-* history -d 2
-
-### df 
-
-* df
-
-* df -h
-
-* df -h bin
-
-### free
-ram
-
-* free
-
-* free -b/k/m/g
 
 ### who
 
@@ -72,7 +46,12 @@ by time access
 
 * ls -d
 
+* ls -t
+
 ### cd 
+
+Absolute path: /usr/bin/
+Relative path: ./bin/
 
 * cd
 
@@ -82,17 +61,9 @@ by time access
 
 * cd -
 
-* use tab to autocomplete
-
 * cd ./
 
 * cd ~
-
-### help
-
-* man command
-
-* command --help
 
 ### logout
 
