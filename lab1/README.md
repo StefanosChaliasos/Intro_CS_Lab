@@ -35,6 +35,12 @@
 
 * pwd 
 
+## Πλοήγηση στο Σύστημα (linux)
+
+* / (root ο αρχικός φάκελος)
+
+* ![linux file system](https://raw.githubusercontent.com/StefanosChaliasos/Intro_CS_Lab/master/images/linux-system-file.png)
+
 ### ls
 
 * ls 
