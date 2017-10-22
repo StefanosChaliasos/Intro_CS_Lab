@@ -20,6 +20,8 @@
 
 * history -d 2
 
+* !22 (execute command number 22)
+
 ### df 
 
 * df
@@ -96,13 +98,18 @@ Tip touch command
 * Να εμφανησουν τις συνδέσης ενος φίλου τους με το ονομα του φιλου τους και το χρόνο που έμεινε μέσα (tip: -f 1, κάτι)
 	1. last -w | grep "ndoureliadis" | cut -d " " -f 1,21
 	2. last -w | grep "ndoureliadis" | cut -d " " -f 1,18
+* Να πάνε στον φάκελο που είναι όλοι οι συμφοιτητές σας μέσα
+	1. cd ../
+	2. ls
+	1. cd /disk2/shome/Students2017
+	2. ls
 * Να ψάξουν πόσοι συμφοιτητές έχουν κάτι την άσκηση με το stats.txt. Tip εντολή find 
 	1. find -name stats.txt | wc -l
 * Στο home directory τους να εμφανησουν το τρίτο αρχείο-κατάλογο τους με την εντολή ls και σωληνώσεις με head και tail
 	1. ls | head -3 | tail -1
 
 ## Exercise C
-
+	
 1. cd ~/intro_ cs/lab_session
 2. nano hello_goodbye.c
 3. make hello_goodbye
