@@ -52,6 +52,34 @@ ram
 * head (σου δείχνει τις 10 πρώτες γραμμές. Αν δώσει πχ. head -3 θα σου δείξει τις τρεις)
 * tail (σου δείχνει τις 10 τελευταίες. Αν δώσεις πχ. tail -3 ...)
 
+### Dimitro commands
+* cp -u *.html destination
+* ls -l | less
+* ls -l
+	1. -rw-r--r--  1 sh  1798654287   1.1K Oct 21 22:35 README.md
+	2. Όνομα, Ημερομινία μορφοποίησης, το μέγεθος σε bytes
+	3. Τύπος αρχείου
+		1. - (κανονικό αρχείο)
+		2. d (κατάλογος)
+		3. | (σύνδεσμος)
+		4. c (character special file)
+		5. s (socket)
+		6. p (named pipe)
+		7. b (block device)
+	4. Άδειες
+		1. άδειες χρήστη (user)
+		2. άδειες ομάδας (group)
+		3. άδειες υπολοίπων (world)
+		4. r-w-x
+	5. user name
+* regex (χαρακτήρες μπαλαντέρ)
+	1. * (οποιοδήποτε χαρακτήρα)
+	2. ? (ένα χαρακτήρα)
+	3. [charecters]
+	4. [!characters]
+		1. g*
+		2. *.c
+
 ## Φροντιστήριο 2
 
 * cp (-i option ask first)
