@@ -96,3 +96,9 @@
 		* mail -s "Sorted File" stefanos.halaliasos@gmail.com < sorted_file.txt
 	2. Ένα που να έχει τίτλο: (Exercise 1), body: (Άσκηση 1) και επισυνημμένο το stats.txt.
 		* echo "Άσκηση 1" | mail -s "Exercise 1" -a stats.txt stefanos.halaliasos@gmail.com
+
+## Δεύτερη εργαστηριακή άσκηση
+1. du -h -d 2 /usr/ 2> /dev/null | sort -hr
+2. vim diskreport.log
+3. du -h -d 2 /usr/ 2> /dev/null | sort -hr >> diskreport.log 
+4. mail -s "DiskReport" stefanos.halaliasos@gmail.com < diskreport.log
