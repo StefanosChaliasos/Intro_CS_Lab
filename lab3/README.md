@@ -1,6 +1,9 @@
 # Lab 3
 
 ## vim
+![vim_modes](vim_modes.png)
+[cheat sheet](https://rumorscity.com/wp-content/uploads/2014/08/10-Best-VIM-Cheat-Sheet-04.jpg)
+
 * vim filename
 * i a I A o O
 * ESC
@@ -17,6 +20,7 @@
 * yy
 * p
 * /search (n or N)
+* s/pt/str (replace)
 
 
 ## stdin, stdout, redirections
@@ -96,6 +100,11 @@
 		* mail -s "Sorted File" stefanos.halaliasos@gmail.com < sorted_file.txt
 	2. Ένα που να έχει τίτλο: (Exercise 1), body: (Άσκηση 1) και επισυνημμένο το stats.txt.
 		* echo "Άσκηση 1" | mail -s "Exercise 1" -a stats.txt stefanos.halaliasos@gmail.com
+
+## scp (secure copy)
+* scp foo.txt schaliasos@prometheus.dmst.aueb.gr:/home/schaliasos/
+* scp schaliasos@prometheus.dmst.aueb.gr:/home/schaliasos/foo.txt /Users/sh/Desktop
+* Άσκηση: Φτιάξτε ένα αρχείο με όνομα bar.txt στο Desktop σας και αντιγράψετε το στον home folder σας (~) στον prometheus
 
 ## Δεύτερη εργαστηριακή άσκηση
 1. du -h -d 2 /usr/ 2> /dev/null | sort -hr
